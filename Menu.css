@@ -1,0 +1,63 @@
+﻿header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black
+}
+
+li {
+    text-align: center;
+    float: left;
+}
+
+li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 15px 16px;
+     text-decoration: none;
+}
+
+li a:hover {
+     background-color: lightgrey;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+row{
+    height:20%;
+}
+
+img{
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    border: double;
+    padding: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    float:left;
+}
